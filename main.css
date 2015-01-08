@@ -1,0 +1,131 @@
+/*GENERAL*/
+
+/** {
+	border: 1px solid black;
+}*/
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	margin: 0px;
+	padding: 0px;	
+}
+
+/*HEADER SECTION*/
+
+header {
+	display: block;
+	position: relative;
+	background-image: url("image_archives/assets/header.jpg");
+	height: 500px;
+	max-width: 1300px;
+	padding: 0px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 0px;
+}
+
+/*HEADER menu across the top of page*/
+/*.nav-bar {
+	position: absolute;
+	display: block;
+	top: 0px;
+	left:	10%;
+	color: #083451;
+	overflow: auto;
+	width: 70%;
+	padding-top: 15px;
+}*/
+
+.nav-bar {
+	float: left;
+	height: auto;
+	max-height: 20%;
+	margin-left: 15%;
+	color: #083451;
+	overflow: auto;
+	width: 70%;
+	padding-top: 10px;
+}
+
+.nav-bar p {
+	display: inline;
+	margin-right: 3px;
+	margin-left: 10px;
+}
+
+.nav-left {
+	display: inline;
+	float: left;
+	font-size: 18px;
+	height: 100%
+}
+
+.nav-left p {
+	float: right;
+	margin-top: 10px;
+}
+
+.nav-right {
+	display: inline-block;
+	float: right;
+	font-size: 18px;
+	padding-top: 10px;
+	height: 100%;
+}
+
+.nav-right p {
+	float: left;
+}
+
+/*HEADER Title*/
+
+.header-title {
+	width: 100%;
+	display: inline-block;
+	margin-top: 130px;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 50px;
+	color: #FFFFFF;
+	padding: 0px;
+	/*border: 1px solid black;*/
+}
+
+.header-title h1 {
+	text-shadow: 2px 2px #21679A; 
+}
+
+.header-title p {
+	margin-top: -15px;
+	font-size: 16px;
+	color: #083451;
+}
+
+/*MAIN BLOG SECTION*/
+
+.main-post {
+	width: 100%;
+	background-color: white;
+}
+
+.column-left {
+	width: 40%;
+}
+
+.column-right {
+	width: 40%;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
