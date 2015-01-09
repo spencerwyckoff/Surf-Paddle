@@ -121,7 +121,7 @@ header {
 
 /*COLUMN LEFT*/
 .column-left {
-	width: 600px;
+	width: 625px;
 	margin-top: 62px;
 	margin-left: 166px;
 	display: inline-block;
@@ -219,15 +219,16 @@ header {
 
 /*COLUMN RIGHT*/
 .column-right {
-	width: auto;
+	display: inline-block;
+	width: 325px;
 	float: right;
-	margin-right: 50px;
+	margin-right: 135px;
 }
 
 .social-icon {
 	display: block;
 	text-align: center;
-	width: 260px;
+	width: 100%;
 	margin: 80px 25px 45px 0px;
 }
 
@@ -242,9 +243,48 @@ header {
 	color: #106DB3;
 	font-size: 18px;
 	padding-top: 6px;
-
-
 }
+
+.advertisement {
+	display: block;
+	/*margin-top: 5px;*/
+}
+
+.advertisement img {
+	display: block;
+	float: right;
+	width: 280px;
+	margin-top: 11px;
+	margin-right: 22px;
+}
+
+.advertisement span {
+	float: right;
+	color: #A3B3BF;
+	text-decoration: underline;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-right: 22px;
+}
+
+.sidebar-section {
+	display: block;
+	float: left;
+	width: 250px;
+	margin: 45px 25px 0px 25px;
+	padding: 0;
+}
+
+.sidebar-section span {
+	color: #106DB3;
+	font-size: 18px; 
+}
+
+.sidebar-section p {
+	color: #A3B3BF;
+	font-size: 14px;
+}
+
 
 
 
