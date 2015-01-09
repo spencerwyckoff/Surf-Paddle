@@ -215,6 +215,7 @@ header {
 	float: right;
 	color: white;
 	padding: 5px 15px 5px 10px;
+	height: 100%;
 	}
 
 .icon:hover span {
@@ -258,7 +259,7 @@ header {
 	display: block;
 	color: #106DB3;
 	font-size: 18px;
-	padding-top: 6px;
+	padding: 6px;
 }
 
 .advertisement {
@@ -322,10 +323,13 @@ footer > h2 {
 	}
 
 .bottom-blog-bar {
+	position: relative;
 	width: 100%;
 	text-align: center;
 	padding: 0;
-	margin: 0px 0px -4px -2px;
+	margin: 0;
+	font-size: 0px;
+	background-color: #083452;
 }
 
 .blog-icon {
@@ -333,16 +337,15 @@ footer > h2 {
 	height: auto;
 	width: 25%;
 	display: inline-block;
-	padding: 0;
-	margin: -2px;
+	padding: 0px;
+	margin: 0px;
 }
-
 
 .blog-icon img {
 	z-index: 1;
 	position: relative;
 	width: 325px;
-	background-color: rgba(0, 0, 255, .7);
+	opacity: .3;
 }
 
 .blog-icon span {
@@ -357,15 +360,55 @@ footer > h2 {
 	text-align: left;
 }
 
-footer nav {
+.blog-icon:hover img {
+	opacity: .7;
+}
+
+.blog-icon:hover span {
+	color: white;
+}
+
+.very-bottom-bar {
+	position: relative;
 	padding: 0;
 	margin: 0;
 	height: 100px;
 	width: 100%;
-	background-color: #083452
+	background-color: #083452;
+	color: #A3B3BF;
+	font-style: sans-serif;
+	font-size: 13px;
 }
 
+.ironyard-tag {
+	display: inline-block;
+	float: left;
+	position: absolute;
+	top: 20px;
+	left: 10%;
+}
 
+.ironyard-tag span {
+	vertical-align: 8px;
+	padding-left: 10px;
+	}
+
+.very-bottom-bar nav {
+	float: right;
+	display: inline-block;
+	position: absolute;
+	top: 35px;
+	right: 10%;
+}
+
+.very-bottom-bar nav span {
+	padding: 0px 7px 0px 7px;
+	border-right: 1px solid #5E686F;
+}
+
+.very-bottom-bar nav span:last-child {
+	border-style: none;
+}
 
 
 
