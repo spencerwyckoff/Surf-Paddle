@@ -3,6 +3,11 @@
 /** {
 	border: 1px solid black;
 }*/
+body {
+	max-width: 1300px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
 
 p {
 	margin: 0px;
@@ -211,21 +216,35 @@ header {
 	padding: 5px 15px 5px 10px;
 	}
 
-.icon > span:nth-child(2) {
-	background-color: red;
-}
-
-
-
-
 
 /*COLUMN RIGHT*/
 .column-right {
-	display: inline-block;
-	width: 400px;
+	width: auto;
 	float: right;
+	margin-right: 50px;
 }
 
+.social-icon {
+	display: block;
+	text-align: center;
+	width: 260px;
+	margin: 80px 25px 45px 0px;
+}
+
+.social-icon span {
+	color: #A3B3BF;
+	margin: 0px 6px -3px 6px;
+	font-size: 14px;
+}
+
+#name {
+	display: block;
+	color: #106DB3;
+	font-size: 18px;
+	padding-top: 6px;
+
+
+}
 
 
 
