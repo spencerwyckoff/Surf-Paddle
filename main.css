@@ -61,14 +61,12 @@ header {
       font-size: 17px;
       color: #083451; }
 
-/*MAIN BLOG SECTION*/
 .blog-body {
   width: 100%;
   background-color: white;
   margin: 0;
   padding: 0px 0px 50px 0px;
-  border-bottom: 1px solid #E1E7EA;
-  /*COLUMN LEFT*/ }
+  border-bottom: 1px solid #E1E7EA; }
   .blog-body .column-left {
     width: 625px;
     margin-top: 62px;
@@ -149,35 +147,29 @@ header {
         background-color: #106DB3; }
       .blog-body .column-left .icon:hover img {
         background-color: #083452; }
-
-/*COLUMN RIGHT*/
-.column-right {
-  display: inline-block;
-  width: 325px;
-  float: right;
-  margin-right: 135px; }
-
-.social-icon {
-  display: block;
-  text-align: center;
-  width: 100%;
-  margin: 80px 25px 45px 0px; }
-
-.social-icon > span {
-  color: #A3B3BF;
-  font-size: 14px;
-  margin: 0px 3px 0px 3px; }
-
-.social-icon span:nth-child(4) {
-  border-left: 1px solid #FAFAFA;
-  border-right: 1px solid #FAFAFA;
-  padding: 0px 7px 0px 7px; }
-
-#name {
-  display: block;
-  color: #106DB3;
-  font-size: 18px;
-  padding: 6px; }
+  .blog-body .column-right {
+    display: inline-block;
+    width: 325px;
+    float: right;
+    margin-right: 135px; }
+    .blog-body .column-right .social-icon {
+      display: block;
+      text-align: center;
+      width: 100%;
+      margin: 80px 25px 45px 0px; }
+      .blog-body .column-right .social-icon > span {
+        color: #A3B3BF;
+        font-size: 14px;
+        margin: 0px 3px 0px 3px; }
+        .blog-body .column-right .social-icon > span .social-name {
+          display: block;
+          color: #106DB3;
+          font-size: 18px;
+          padding: 6px; }
+        .blog-body .column-right .social-icon > span:nth-child(4) {
+          border-left: 1px solid #FAFAFA;
+          border-right: 1px solid #FAFAFA;
+          padding: 0px 7px 0px 7px; }
 
 .advertisement {
   display: block;
