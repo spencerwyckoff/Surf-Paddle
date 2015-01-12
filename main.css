@@ -17,14 +17,14 @@ header {
   display: block;
   background-image: url("image_archives/assets/header.jpg");
   height: 523px;
-  max-width: 100%;
+  max-height: 570px;
   padding: 0;
   margin: 0;
   font-family: "Oswald", sans-serif;
   color: #083451; }
   header .nav-left {
     display: inline-block;
-    margin: 9px 0px 0px 141px;
+    margin: 9px 0px 0px 12.5%;
     font-size: 18px;
     overflow: auto; }
     header .nav-left img {
@@ -43,32 +43,23 @@ header {
     header .nav-right span {
       font-size: 18px;
       padding: 0px 3px 0px 8px; }
-
-.nav-bar p {
-  display: inline;
-  margin-right: 3px;
-  margin-left: 10px; }
-
-/*HEADER Title*/
-.header-title {
-  width: 100%;
-  display: inline-block;
-  margin-top: 192px;
-  text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 55px;
-  color: #FFFFFF;
-  padding: 0px;
-  /*border: 1px solid black;*/ }
-
-.header-title h1 {
-  text-shadow: 3px 3px #21679A;
-  font-weight: normal; }
-
-.header-title p {
-  margin-top: -15px;
-  font-size: 16px;
-  color: #083451; }
+  header .header-title {
+    width: 100%;
+    display: inline-block;
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 55px;
+    color: #FFFFFF;
+    padding: 0px;
+    /*border: 1px solid black;*/ }
+    header .header-title h1 {
+      text-shadow: 3px 3px #21679A;
+      font-weight: normal; }
+    header .header-title p {
+      margin: -17px 6px 0px 0px;
+      font-size: 17px;
+      color: #083451; }
 
 /*MAIN BLOG SECTION*/
 .blog-body {
