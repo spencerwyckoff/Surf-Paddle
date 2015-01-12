@@ -36,11 +36,13 @@ header {
       font-family: sans-serif;
       font-size: 15px; }
   header .nav-right {
-    float: right; }
+    float: right;
+    margin: 16px 12.5% 0px 0px; }
     header .nav-right img {
-      float: right; }
+      padding: 0px 5px 0px 0px; }
     header .nav-right span {
-      float: right; }
+      font-size: 18px;
+      padding: 0px 3px 0px 8px; }
 
 .nav-bar p {
   display: inline;
