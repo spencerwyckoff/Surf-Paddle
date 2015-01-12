@@ -111,45 +111,44 @@ header {
       margin-left: 15px; }
       .blog-body .column-left .post-date > span {
         text-decoration: underline; }
-  .blog-body .blog-text {
-    margin-top: 33px;
-    margin-right: 5px; }
-    .blog-body .blog-text p {
-      font-size: 18px;
-      color: #5E686F;
-      font-family: 'Source Sans Pro', sans-serif; }
-    .blog-body .blog-text a {
-      color: #A3B3BF; }
-    .blog-body .blog-text .radical {
+    .blog-body .column-left .blog-text {
+      margin-top: 33px;
+      margin-right: 5px; }
+      .blog-body .column-left .blog-text p {
+        font-size: 18px;
+        color: #5E686F;
+        font-family: 'Source Sans Pro', sans-serif; }
+      .blog-body .column-left .blog-text a {
+        color: #A3B3BF; }
+      .blog-body .column-left .blog-text .radical {
+        display: inline-block;
+        height: 35px;
+        margin: 10px 10px 20px 10px;
+        padding: 10px 0px 0px 15px;
+        border-left: 2px solid #D3D3D3;
+        color: #106DB3;
+        font-size: 28px; }
+    .blog-body .column-left .icon {
       display: inline-block;
-      height: 35px;
-      margin: 10px 10px 20px 10px;
-      padding: 10px 0px 0px 15px;
-      border-left: 2px solid #D3D3D3;
-      color: #106DB3;
-      font-size: 28px; }
-
-.icon {
-  display: inline-block;
-  background-color: #A3B3BF;
-  height: 28px;
-  overflow: auto;
-  font-size: 14px;
-  margin: 4px; }
-  .icon img {
-    float: left;
-    height: 12px;
-    padding: 8px;
-    background-color: #5E686F; }
-  .icon span {
-    float: right;
-    color: white;
-    padding: 5px 15px 5px 10px;
-    height: 100%; }
-  .icon:hover span {
-    background-color: #106DB3; }
-  .icon:hover img {
-    background-color: #083452; }
+      background-color: #A3B3BF;
+      height: 28px;
+      overflow: auto;
+      font-size: 14px;
+      margin: 4px; }
+      .blog-body .column-left .icon img {
+        float: left;
+        height: 12px;
+        padding: 8px;
+        background-color: #5E686F; }
+      .blog-body .column-left .icon span {
+        float: right;
+        color: white;
+        padding: 5px 15px 5px 10px;
+        height: 100%; }
+      .blog-body .column-left .icon:hover span {
+        background-color: #106DB3; }
+      .blog-body .column-left .icon:hover img {
+        background-color: #083452; }
 
 /*COLUMN RIGHT*/
 .column-right {
