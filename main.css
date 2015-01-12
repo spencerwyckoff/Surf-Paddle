@@ -19,6 +19,10 @@ h1 {
 	padding: 0px;	
 }
 
+a {
+	text-decoration: none;
+}
+
 /*HEADER SECTION*/
 
 header {
@@ -329,7 +333,7 @@ footer > h2 {
 	padding: 0;
 	margin: 0;
 	font-size: 0px;
-	background-color: #083452;
+	background-color: #134A78;
 }
 
 .blog-icon {
@@ -401,7 +405,7 @@ footer > h2 {
 	right: 10%;
 }
 
-.very-bottom-bar nav span {
+.very-bottom-bar nav a {
 	padding: 0px 7px 0px 7px;
 	border-right: 1px solid #5E686F;
 }
@@ -409,6 +413,15 @@ footer > h2 {
 .very-bottom-bar nav span:last-child {
 	border-style: none;
 }
+
+nav a {
+	color: #A3B3BF; 
+}
+
+nav a:hover {
+	color: yellow; 
+}
+
 
 
 
