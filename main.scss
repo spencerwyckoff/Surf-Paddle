@@ -1,12 +1,32 @@
 // VARIABLES
-$font-heading: 'Oswald', sans-serif;
-$color-heading: #083451;
+//===========================================
+$font-heading-main: 'Oswald', sans-serif;
+$darker-blue: #083451;
+$lighter-blue: #106DB3;
+$lighter-gray: #A3B3BF;
+$font-title-main: 'Source Sans Pro', sans-serif;
+
+// MIXINS
+//===========================================
+@mixin font-body-p() {
+	color: #5E686F;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+@mixin title-text() {
+	color: $darker-blue;
+	font-family: 'Oswald', sans-serif;
+	font-size: 62px;
+	font-weight: normal;	
+}
 
 
-
+// GENERAL
+//===========================================
 body {
 	max-width: 1300px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: $font-title-main;
 
 }
 
@@ -24,40 +44,44 @@ a {
 	text-decoration: none;
 }
 
-
+//============================================
 // HEADER
+//============================================
 
 header {
 	display: block;
 	background-image: url("image_archives/assets/header.jpg");
+	color: $darker-blue;
+	font-family: $font-heading-main;
 	height: 523px;
 	max-height: 570px;
 	padding: 0;
 	margin: 0;
-	font-family: $font-heading;
-	color: $color-heading;
+	
 
 // NAVIGATION LEFT
+//===========================================
 	.nav-left {
 		display: inline-block;
-		margin: 9px 0px 0px 11%;
-		font-size: 18px;
 		overflow: auto;
-		
+		font-size: 18px;
+		margin: 9px 0px 0px 11%;
+						
 		img {
 			float: left;
 		}
 
 		span {
 			float: left;
+			font-family: sans-serif;			
+			font-size: 15px;
 			margin: 13px 0px 0px 0px;
 			padding: 0px 0px 0px 12px;
-			font-family: sans-serif;
-			font-size: 15px;
 		}
 	}
 
 // NAVIGATION RIGHT
+//===========================================
 	.nav-right {
 		float: right;	
 		margin: 16px 12.5% 0px 0px;
@@ -73,16 +97,16 @@ header {
 	}
 
 // HEADER TITLE
+//===========================================
 	.header-title {
-		width: 100%;
 		display: inline-block;
-		margin-top: 10%;
-		text-align: center;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 55px;
+		width: 100%;
 		color: #FFFFFF;
+		font-family: $font-title-main;
+		font-size: 55px;
+		margin-top: 10%;
+		text-align: center;		
 		padding: 0px;
-		/*border: 1px solid black;*/
 
 		h1 {
 		text-shadow: 3px 3px #21679A;
@@ -92,34 +116,36 @@ header {
 		p {
 		margin: -17px 6px 0px 0px;
 		font-size: 17px;
-		color: #083451;
+		color: $darker-blue;
 		}
 	}
 }
 
+//============================================
 // MAIN BLOG BODY
+//============================================
 .blog-body {
-	width: 100%;
 	background-color: white;
+	overflow: auto;
+	width: 100%;
 	margin: 0;
 	padding: 0px 0px 50px 0px;
 	border-bottom: 1px solid #E1E7EA;
-	overflow: auto;
+	
 
-	// COLUMN LEFT
+// COLUMN LEFT
+//===========================================
 	.column-left {
+		display: inline-block;
 		float: left;
+		font-family: $font-title-main;
 		width: 625px;
 		margin-top: 62px;
 		margin-left: 163px;
-		display: inline-block;
-		font-family: 'Source Sans Pro', sans-serif;
+		
 
 		h2 {
-			font-family: 'Oswald', sans-serif;
-			font-size: 62px;
-			font-weight: normal;
-			color: #083452;
+			@include title-text;
 			line-height: 70px;
 			padding: 0;
 			margin: 0;
@@ -127,23 +153,17 @@ header {
 		
 		.post-info {
 			width: 100%;
+			color: #BAC6CF;
+			font-family: $font-title-main;
+			font-size: 14px;
 			margin-top: 7px;
 			padding-left: 2px;
-			color: #BAC6CF;
-			font-family: 'Source Sans Pro', sans-serif;
-			font-size: 14px;
+			
 
 			img {
 				float: left;
 				height: 22px;
 			}
-
-			.author-name {
-				display: inline-block;
-				color: #106DB3;
-				margin-top: 5px;
-				margin-left: 7px;
-				}
 
 			.post-date {
 				margin-left: 15px;
@@ -157,7 +177,7 @@ header {
 
 		.author-name{
 			display: inline-block;
-			color: #106DB3;
+			color: $lighter-blue;
 			margin-top: 5px;
 			margin-left: 7px;
 		}
@@ -175,13 +195,11 @@ header {
 			margin-right: 5px;
 
 			p {
-				font-size: 18px;
-				color: #5E686F;
-				font-family: 'Source Sans Pro', sans-serif;
+				@include font-body-p();
 			}
 
 			a {
-				color: #A3B3BF;
+				color: $lighter-gray;
 			}
 
 			.radical {
@@ -190,16 +208,16 @@ header {
 				margin: 10px 10px 20px 10px; 
 				padding: 10px 0px 0px 15px;
 				border-left: 2px solid #D3D3D3;
-				color: #106DB3;
+				color: $lighter-blue;
 				font-size: 28px;
 			}
 		}
 	
 		.icon {
-			display: inline-block;
+			display: inline-block;			
+			overflow: auto;
 			background-color: #A3B3BF;
 			height: 28px;
-			overflow: auto;
 			font-size: 14px;
 			margin: 4px;
 
@@ -227,7 +245,8 @@ header {
 		}
 	}
 
-	// COLUMN RIGHT
+// COLUMN RIGHT
+//===========================================
 	.column-right {
 		display: inline-block;
 		width: 325px;
@@ -247,7 +266,7 @@ header {
 
 
 			.social-links {
-				color: #A3B3BF;
+				color: $lighter-gray;
 				font-size: 14px;
 				margin: -6px -1px 0px 0px;
 			
@@ -260,7 +279,7 @@ header {
 
 			.social-name {
 						display: block;
-						color: #106DB3;
+						color: $lighter-blue;
 						font-size: 18px;
 						padding: 6px;
 						margin: 4px 6px 0px 0px;
@@ -287,7 +306,7 @@ header {
 
 			span {
 				float: right;
-				color: #A3B3BF;
+				color: $lighter-gray;
 				text-decoration: underline;
 				font-size: 14px;
 				margin-top: 5px;
@@ -303,13 +322,13 @@ header {
 			padding: 0;
 
 			span {
-				color: #106DB3;
+				color: $lighter-blue;
 				font-size: 18px; 
 				letter-spacing: -1px;
 			}
 
 			p {
-				color: #A3B3BF;
+				color: $lighter-gray;
 				font-size: 14px;
 				line-height: 24px;
 			}	
@@ -317,17 +336,16 @@ header {
 	}
 }
 
+//============================================
 // FOOTER
+//============================================
 footer {
 	margin: 0;
 	padding: 0;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: $font-title-main, sans-serif;
 
 	> h2 {
-		font-family: 'Oswald', sans-serif;
-		font-size: 62px;
-		font-weight: normal;
-		color: #083452;
+		@include title-text;
 		line-height: 109px;
 		text-align: center;
 		padding: 25px 0px 11px 0px;
@@ -362,7 +380,7 @@ footer {
 				bottom: 2%;
 				left: 20px;
 				z-index: 2;
-				font-family: 'Oswald', sans-serif;
+				font-family: $font-heading-main;
 				font-size: 30px;
 				font-weight: normal;
 				color: #134A78;
@@ -388,7 +406,7 @@ footer {
 		height: 100px;
 		width: 100%;
 		background-color: #083452;
-		color: #A3B3BF;
+		color: $lighter-gray;
 		font-style: sans-serif;
 		font-size: 14px;
 
@@ -411,7 +429,7 @@ footer {
 			a {
 					padding: 0px 7px 0px 7px;
 					border-right: 1px solid #5E686F;
-					color: #A3B3BF; 
+					color: $lighter-gray; 
 					
 					&:hover {
 						color: yellow; 
