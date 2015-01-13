@@ -248,34 +248,74 @@ header {
 				margin: -31px 0px 0px 118px;
 			}
 
-		.social-links {
-			color: #A3B3BF;
-			font-size: 14px;
-			margin: -6px -1px 0px 0px;
-		
 
-			> span {
-				padding: 0px 3px 0px 3px;
+			.social-links {
+				color: #A3B3BF;
+				font-size: 14px;
+				margin: -6px -1px 0px 0px;
+			
+
+				> span {
+					padding: 0px 3px 0px 3px;
+				}
+
 			}
 
-		}
+			.social-name {
+						display: block;
+						color: #106DB3;
+						font-size: 18px;
+						padding: 6px;
+						margin: 4px 6px 0px 0px;
+			}
 
-		.social-name {
-					display: block;
-					color: #106DB3;
-					font-size: 18px;
-					padding: 6px;
-					margin: 4px 6px 0px 0px;
-		}
-
-			
-			
 			&:nth-child(4) {
 					border-left: 1px solid #FAFAFA;
 					border-right: 1px solid #FAFAFA;
 				 	padding: 0px 7px 0px 7px;
 			}
 
+		}
+
+		.advertisement {
+			display: block;
+
+			img {
+				display: block;
+				float: right;
+				width: 280px;
+				margin-top: 7px;
+				margin-right: 27px;
+			}
+
+			span {
+				float: right;
+				color: #A3B3BF;
+				text-decoration: underline;
+				font-size: 14px;
+				margin-top: 5px;
+				margin-right: 22px;
+			}
+		}
+
+		.sidebar-section {
+			display: block;
+			float: left;
+			width: 250px;
+			margin: 45px 25px 0px 25px;
+			padding: 0;
+
+			span {
+				color: #106DB3;
+				font-size: 18px; 
+				letter-spacing: -1px;
+			}
+
+			p {
+				color: #A3B3BF;
+				font-size: 14px;
+				line-height: 24px;
+			}	
 		}
 	}
 
@@ -291,47 +331,7 @@ header {
 
 
 
-.advertisement {
-	display: block;
-	/*margin-top: 5px;*/
-}
 
-.advertisement img {
-	display: block;
-	float: right;
-	width: 280px;
-	margin-top: 7px;
-	margin-right: 27px;
-}
-
-.advertisement span {
-	float: right;
-	color: #A3B3BF;
-	text-decoration: underline;
-	font-size: 14px;
-	margin-top: 5px;
-	margin-right: 22px;
-}
-
-.sidebar-section {
-	display: block;
-	float: left;
-	width: 250px;
-	margin: 45px 25px 0px 25px;
-	padding: 0;
-}
-
-.sidebar-section span {
-	color: #106DB3;
-	font-size: 18px; 
-	letter-spacing: -1px;
-}
-
-.sidebar-section p {
-	color: #A3B3BF;
-	font-size: 14px;
-	line-height: 24px;
-}
 
 /*FOOTER*/
 footer {
