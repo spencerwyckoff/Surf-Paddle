@@ -66,11 +66,13 @@ header {
   background-color: white;
   margin: 0;
   padding: 0px 0px 50px 0px;
-  border-bottom: 1px solid #E1E7EA; }
+  border-bottom: 1px solid #E1E7EA;
+  overflow: auto; }
   .blog-body .column-left {
+    float: left;
     width: 625px;
     margin-top: 62px;
-    margin-left: 166px;
+    margin-left: 163px;
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif; }
     .blog-body .column-left h2 {
@@ -150,8 +152,8 @@ header {
   .blog-body .column-right {
     display: inline-block;
     width: 325px;
-    float: right;
-    margin-right: 135px; }
+    float: left;
+    margin: 33px 0px 0px 53px; }
     .blog-body .column-right .social-icon {
       display: block;
       text-align: center;

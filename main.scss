@@ -107,12 +107,14 @@ header {
 	margin: 0;
 	padding: 0px 0px 50px 0px;
 	border-bottom: 1px solid #E1E7EA;
+	overflow: auto;
 
 	// COLUMN LEFT
 	.column-left {
+		float: left;
 		width: 625px;
 		margin-top: 62px;
-		margin-left: 166px;
+		margin-left: 163px;
 		display: inline-block;
 		font-family: 'Source Sans Pro', sans-serif;
 
@@ -232,8 +234,8 @@ header {
 	.column-right {
 		display: inline-block;
 		width: 325px;
-		float: right;
-		margin-right: 135px;
+		float: left;
+		margin: 33px 0px 0px 53px;
 
 		.social-icon {
 			display: block;
