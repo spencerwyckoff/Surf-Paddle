@@ -208,102 +208,82 @@ header {
         font-size: 14px;
         line-height: 24px; }
 
-/*FOOTER*/
 footer {
   margin: 0;
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif; }
-
-footer > h2 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 62px;
-  font-weight: normal;
-  color: #083452;
-  line-height: 109px;
-  text-align: center;
-  padding: 25px 0px 11px 0px;
-  margin: 5px; }
-
-.bottom-blog-bar {
-  position: relative;
-  width: 100%;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  font-size: 0px;
-  background-color: #3399FF; }
-
-.blog-icon {
-  position: relative;
-  height: auto;
-  width: 25%;
-  display: inline-block;
-  padding: 0px;
-  margin: 0px; }
-
-.blog-icon img {
-  z-index: 1;
-  position: relative;
-  width: 325px;
-  opacity: .3; }
-
-.blog-icon span {
-  position: absolute;
-  bottom: 30px;
-  left: 20px;
-  z-index: 2;
-  font-family: 'Oswald', sans-serif;
-  font-size: 30px;
-  font-weight: normal;
-  color: #134A78;
-  text-align: left; }
-
-.blog-icon:hover img {
-  opacity: .7; }
-
-.blog-icon:hover span {
-  color: white; }
-
-.very-bottom-bar {
-  position: relative;
-  padding: 0;
-  margin: 0;
-  height: 100px;
-  width: 100%;
-  background-color: #083452;
-  color: #A3B3BF;
-  font-style: sans-serif;
-  font-size: 13px; }
-
-.ironyard-tag {
-  display: inline-block;
-  float: left;
-  position: absolute;
-  top: 31px;
-  left: 12.5%; }
-
-.ironyard-tag span {
-  vertical-align: 8px;
-  padding-left: 10px; }
-
-.very-bottom-bar nav {
-  float: right;
-  display: inline-block;
-  position: absolute;
-  top: 45px;
-  right: 14%; }
-
-.very-bottom-bar nav a {
-  padding: 0px 7px 0px 7px;
-  border-right: 1px solid #5E686F; }
-
-.very-bottom-bar nav span:last-child {
-  border-style: none; }
-
-nav a {
-  color: #A3B3BF; }
-
-nav a:hover {
-  color: yellow; }
+  footer > h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 62px;
+    font-weight: normal;
+    color: #083452;
+    line-height: 109px;
+    text-align: center;
+    padding: 25px 0px 11px 0px;
+    margin: 5px; }
+  footer .bottom-blog-bar {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 9px 0px 0px 0px;
+    font-size: 0px;
+    background-color: #3399FF; }
+    footer .bottom-blog-bar .blog-icon {
+      position: relative;
+      height: auto;
+      width: 25%;
+      display: inline-block;
+      padding: 0px;
+      margin: 0px; }
+      footer .bottom-blog-bar .blog-icon img {
+        z-index: 1;
+        position: relative;
+        width: 325px;
+        opacity: .3; }
+      footer .bottom-blog-bar .blog-icon span {
+        position: absolute;
+        bottom: 2%;
+        left: 20px;
+        z-index: 2;
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        color: #134A78;
+        text-align: left; }
+      footer .bottom-blog-bar .blog-icon:hover img {
+        opacity: .7; }
+      footer .bottom-blog-bar .blog-icon:hover span {
+        color: white; }
+  footer .very-bottom-bar {
+    overflow: auto;
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #083452;
+    color: #A3B3BF;
+    font-style: sans-serif;
+    font-size: 14px; }
+    footer .very-bottom-bar .ironyard-tag {
+      display: inline-block;
+      float: left;
+      margin: 2% 0px 0px 12.5%; }
+      footer .very-bottom-bar .ironyard-tag span {
+        vertical-align: 8px;
+        padding-left: 10px; }
+    footer .very-bottom-bar nav {
+      float: left;
+      display: inline-block;
+      margin: 39px 0px 0px 22%; }
+      footer .very-bottom-bar nav a {
+        padding: 0px 7px 0px 7px;
+        border-right: 1px solid #5E686F;
+        color: #A3B3BF; }
+        footer .very-bottom-bar nav a:hover {
+          color: yellow; }
+      footer .very-bottom-bar nav span:last-child {
+        border-style: none; }
 
 /*# sourceMappingURL=main.css.map */
